@@ -1,2 +1,6 @@
 # Assignment
-Here is my assignment for a data analytics internship.
+Here is my assignment for a data analytics internship at TROP ICSU.I have developed the K-NN regression model in python using Spyder IDE and the data visualizations have been plotted in spyder IDE too.
+As we can see by the elbow curve for a very low value of k (suppose k=1), the model overfits on the training data, which leads to a high error rate on the validation set. On the other hand, for a high value of k, the model performs poorly on both train and validation set. If you observe closely, the validation error curve reaches a minima at a value of k = 2. The value of k that is the optimum value of the model found by using grid search technique to determine the best K value which is 5.. This curve is known as an ‘elbow curve‘ (because it has a shape like an elbow) and is usually used to determine the k value.
+By using pred variable , we can see the predicted values for total rainfall from june to september. By getting the root mean square error values(rmse) for test set of y we can  then plot the validation curve and see the elbow curve and see optimum value of K.
+Same can be done for training set by calculation the root mean square error values for the predictions it makes and comparing it with observed values then plotting a curve for the rmse values against K values.
+Also by checking the r squared value at the end of the model we can see how good a fit the model is for the given dataset.
